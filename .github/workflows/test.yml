@@ -1,7 +1,0 @@
-    steps:
-    - uses: actions/checkout@v3
-    - name: Scan IaC with Tenable Cloud Security
-      uses: tenable/cloud-security-actions/iac/scan@v1
-      with:
-        api-token: ${{ secrets.TENABLE_API_TOKEN }}
-        api-url: https://jp.app.ermetic.com
